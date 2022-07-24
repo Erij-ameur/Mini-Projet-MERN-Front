@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Nunito";
+}
+body{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    background:linear-gradient(100deg,#1ABC9C, #1ABC9C)
+}
+.container{
+    max-width:600px;
+    margin-right: 275px;
+    width:175%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    
+}
+.container .title{
+    position: relative;
+    left:115px;
+   font-size: calc( 1em + 7vmin );
+    font-weight: 900;
+    margin: 30px  30px 30px 30px;
+    color:#1ABC9C;
+}
+.container form .user-details{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+form .user-details .input-box{
+    margin-bottom:15px;
+    width: calc(100% / 2 - 1px);
+}
+form .user-details .input-box .details{
+    display:block;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+form .user-details .input-box input{
+    height: 45px;
+    width:100%;
+    outline:none ;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 13px;
+    border-bottom-width: 2px;
+}
+
+@media screen and (max-width:792px){
+
+}
