@@ -1,0 +1,29 @@
+.Register_title {
+
+    position: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #2C3E50;
+    margin-top: 5%;
+}
+
+.Register_form {
+    position: center;
+    margin: 5% 30%;
+}
+
+.Register_input{
+    width: 100%;
+    /* background-color: #D9D9D9; */
+    border-top: #2C3E50;
+    border-left: #2C3E50;
+    border-right: #2C3E50;
+    height: 62px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
